@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/source/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header style="position: fixed; z-index: 100; width: 100%" class="header">
+            <nav class="navbar navbar-expand-md py-3 bg-light">
+                <div class="container ">
+                    <a class="navbar-brand" style="font-size: 24px; font-weight: 700" href="#">TECH PRO<i
+                            style="margin-left: 10px" class="bi bi-laptop"></i></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse flex-grow-0 navbar-collapse" id="navbarNavAltMarkup">
+                        <div style="font-size: 18px" class="navbar-nav">
+                            <a class="nav-link fw-semibold" aria-current="page" href="#">Home</a>
+                            <a class="nav-link fw-semibold" href="#">Features</a>
+                            <a class="nav-link fw-semibold" href="#">Pricing</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="page">
+            <section style="margin-top: 90px; margin-bottom: 30px;" class="container page__title">
+                <div class="title">
+                    <h1 class="title__text">New products!</h1>
+                </div>
+            </section>
+            <div class="container row swipper">
+                <div id="carouselExampleInterval" class="p-0 carousel slide justify-content-center "
+                    data-bs-ride="carousel">
+                    <div style="width: 100vw" class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="1500">
+                            <a href="#">
+                                <img src="https://m.media-amazon.com/images/I/61XS1+c+kXL._AC_SL1500_.jpg" alt="Laptop">
+                            </a>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="1500">
+                            <a href="#">
+                                <img src="https://m.media-amazon.com/images/I/71EVBJVMSoL._AC_SL1500_.jpg" alt="Laptop">
+                            </a>
+                        </div>
+                        <div class="carousel-item carousel-item-pc" data-bs-interval="1500">
+                            <a href="#">
+                                <img src="https://images.samsung.com/is/image/samsung/ru-c34h89-lc34h890wjixci-frontblack-73649600?$1300_1038_PNG$"
+                                    alt="PC">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="container categories__title">
+                <p style="margin-top: 50px" class="categories__title__text h1">All products:</p>
+            </section>
+            <div class="products">
+                <div class="products__container container">
+                    <div class="products__row row row-cols-xl-5 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 gx-5 gy-4">
+                        <div class=" products__row__item   ">
+                            <div class="card row flex-column align-content-center">
+                                <div class="card__image">
+                                    <a href="#"><img
+                                            src="https://m.media-amazon.com/images/I/71EVBJVMSoL._AC_SL1500_.jpg"
+                                            class="card-img-top" alt="..."></a>
+                                </div>
+                                <div class="card-body">
+                                    <a href="#">
+                                        <h5 class="card-title">Name of product</h5>
+                                    </a>
+                                    <p class="card-text">Something about this product.</p>
+                                    <p class="card-price">999$</p>
+                                    <a href="#" class="btn w-100 btn-primary">View more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__row__item ">
+                            <div class="card row flex-column align-content-center">
+                                <div class="card__image">
+                                    <a href="#"><img
+                                            src="https://m.media-amazon.com/images/I/71EVBJVMSoL._AC_SL1500_.jpg"
+                                            class="card-img-top" alt="..."></a>
+                                </div>
+                                <div class="card-body">
+                                    <a href="#">
+                                        <h5 class="card-title">Name of product</h5>
+                                    </a>
+                                    <p class="card-text">Something about this product.</p>
+                                    <p class="card-price">999$</p>
+                                    <a href="#" class="btn w-100 btn-primary">View more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__row__item ">
+                            <div class="card row flex-column align-content-center">
+                                <div class="card__image">
+                                    <a href="#"><img
+                                            src="https://m.media-amazon.com/images/I/71EVBJVMSoL._AC_SL1500_.jpg"
+                                            class="card-img-top" alt="..."></a>
+                                </div>
+                                <div class="card-body">
+                                    <a href="#">
+                                        <h5 class="card-title">Name of product</h5>
+                                    </a>
+                                    <p class="card-text">Something about this product.</p>
+                                    <p class="card-price">999$</p>
+                                    <a href="#" class="btn w-100 btn-primary">View more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__row__item ">
+                            <div class="card row flex-column align-content-center">
+                                <div class="card__image">
+                                    <a href="#"><img
+                                            src="https://m.media-amazon.com/images/I/71EVBJVMSoL._AC_SL1500_.jpg"
+                                            class="card-img-top" alt="..."></a>
+                                </div>
+                                <div class="card-body">
+                                    <a href="#">
+                                        <h5 class="card-title">Name of product</h5>
+                                    </a>
+                                    <p class="card-text">Something about this product.</p>
+                                    <p class="card-price">999$</p>
+                                    <a href="#" class="btn w-100 btn-primary">View more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__row__item  ">
+                            <div class="card row flex-column align-content-center">
+                                <div class="card__image">
+                                    <a href="#"><img
+                                            src="https://m.media-amazon.com/images/I/71EVBJVMSoL._AC_SL1500_.jpg"
+                                            class="card-img-top" alt="..."></a>
+                                </div>
+                                <div class="card-body">
+                                    <a href="#">
+                                        <h5 class="card-title">Name of product</h5>
+                                    </a>
+                                    <p class="card-text">Something about this product.</p>
+                                    <p class="card-price">999$</p>
+                                    <a href="#" class="btn w-100 btn-primary">View more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__row__item ">
+                            <div class="card row flex-column align-content-center">
+                                <div class="card__image">
+                                    <a href="#"><img
+                                            src="https://m.media-amazon.com/images/I/71EVBJVMSoL._AC_SL1500_.jpg"
+                                            class="card-img-top" alt="..."></a>
+                                </div>
+                                <div class="card-body">
+                                    <a href="#">
+                                        <h5 class="card-title">Name of product</h5>
+                                    </a>
+                                    <p class="card-text">Something about this product.</p>
+                                    <p class="card-price">999$</p>
+                                    <a href="#" class="btn w-100 btn-primary">View more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__row__item ">
+                            <div class="card row flex-column align-content-center">
+                                <div class="card__image">
+                                    <a href="#"><img
+                                            src="https://m.media-amazon.com/images/I/71EVBJVMSoL._AC_SL1500_.jpg"
+                                            class="card-img-top" alt="..."></a>
+                                </div>
+                                <div class="card-body">
+                                    <a href="#">
+                                        <h5 class="card-title">Name of product</h5>
+                                    </a>
+                                    <p class="card-text">Something about this product.</p>
+                                    <p class="card-price">999$</p>
+                                    <a href="#" class="btn w-100 btn-primary">View more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__row__item ">
+                            <div class="card row flex-column align-content-center">
+                                <div class="card__image">
+                                    <a href="#"><img
+                                            src="https://m.media-amazon.com/images/I/71EVBJVMSoL._AC_SL1500_.jpg"
+                                            class="card-img-top" alt="..."></a>
+                                </div>
+                                <div class="card-body">
+                                    <a href="#">
+                                        <h5 class="card-title">Name of product</h5>
+                                    </a>
+                                    <p class="card-text">Something about this product.</p>
+                                    <p class="card-price">999$</p>
+                                    <a href="#" class="btn w-100 btn-primary">View more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__row__item ">
+                            <div class="card row flex-column align-content-center">
+                                <div class="card__image">
+                                    <a href="#"><img
+                                            src="https://m.media-amazon.com/images/I/71EVBJVMSoL._AC_SL1500_.jpg"
+                                            class="card-img-top" alt="..."></a>
+                                </div>
+                                <div class="card-body">
+                                    <a href="#">
+                                        <h5 class="card-title">Name of product</h5>
+                                    </a>
+                                    <p class="card-text">Something about this product.</p>
+                                    <p class="card-price">999$</p>
+                                    <a href="#" class="btn w-100 btn-primary">View more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products__row__item ">
+                            <div class="card row flex-column align-content-center">
+                                <div class="card__image">
+                                    <a href="#"><img
+                                            src="https://m.media-amazon.com/images/I/71EVBJVMSoL._AC_SL1500_.jpg"
+                                            class="card-img-top" alt="..."></a>
+                                </div>
+                                <div class="card-body">
+                                    <a href="#">
+                                        <h5 class="card-title">Name of product</h5>
+                                    </a>
+                                    <p class="card-text">Something about this product.</p>
+                                    <p class="card-price">999$</p>
+                                    <a href="#" class="btn w-100 btn-primary">View more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tabs">
+                <div class="tabs__container p-0 container">
+                    <div class="row row-tabs gy-3">
+                        <div class="col-xxl-6 col-xl-6 col-md-12 col-sm-12">
+                            <div class="list-group" id="list-tab" role="tablist">
+                                <a class="list-group-item list-group-item-action active" id="list-home-list"
+                                    data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Why
+                                    we?</a>
+                                <a class="list-group-item list-group-item-action" id="list-profile-list"
+                                    data-bs-toggle="list" href="#list-profile" role="tab"
+                                    aria-controls="list-profile">About us more</a>
+                                <a class="list-group-item list-group-item-action" id="list-messages-list"
+                                    data-bs-toggle="list" href="#list-messages" role="tab"
+                                    aria-controls="list-messages">Our story</a>
+                                <a class="list-group-item list-group-item-action" id="list-settings-list"
+                                    data-bs-toggle="list" href="#list-settings" role="tab"
+                                    aria-controls="list-settings">Contacts</a>
+                            </div>
+                        </div>
+                        <div class="col-xxl-6 col-xl-6 col-md-12 col-sm-12">
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="list-home" role="tabpanel"
+                                    aria-labelledby="list-home-list">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                    elit. Quasi dicta rerum iure cum voluptatibus iusto dolores magni quia excepturi
+                                    fugiat voluptate dignissimos officia veniam exercitationem similique nemo, suscipit
+                                    illo aliquam.</div>
+                                <div class="tab-pane fade" id="list-profile" role="tabpanel"
+                                    aria-labelledby="list-profile-list">Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Itaque, vero cumque! Ea ducimus culpa animi quisquam tempore
+                                    distinctio natus earum deleniti eligendi, dolores rem incidunt magnam officia?
+                                    Dolorem, nostrum voluptatibus!</div>
+                                <div class="tab-pane fade" id="list-messages" role="tabpanel"
+                                    aria-labelledby="list-messages-list">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Facilis animi vel nisi aut quas rerum suscipit corporis
+                                    accusantium iure, quos fugit sequi aliquam, magni quo reiciendis in, aperiam quis
+                                    nam.</div>
+                                <div class="tab-pane fade" id="list-settings" role="tabpanel"
+                                    aria-labelledby="list-settings-list">
+                                    <div class="contacts">
+                                        <div class="phone">
+                                            <span>Phone: <a href="tel:0931231234">+380931231234</a></span>
+                                        </div>
+                                        <div class="email">
+                                            <span>Email: <a href="mailto:anonim@gmail.com">anonim@gmail.com</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="bd-footer py-4 py-md-5 mt-5 bg-light">
+            <div class="container py-4 py-md-5 px-4 px-md-3">
+                <div class="row footer-row">
+                    <div class="col-lg-3 mb-3">
+                        <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="/"
+                            aria-label="Bootstrap">
+                            <a class="navbar-brand" style="font-size: 24px; font-weight: 700" href="#">TECH PRO<i
+                                style="margin-left: 10px" class="bi bi-laptop"></i></a>
+                        </a>
+                        <div class="mt-3 copy">
+                            Copyright TECH PRO &copy;
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-2 offset-lg-1 mb-3">
+                        <h5>Links</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2 footer__menu-item"><a href="#" class="footer__menu_link">Menu</a></li>
+                            <li class="mb-2 footer__menu-item"><a href="#" class="footer__menu_link">Home</a></li>
+                            <li class="mb-2 footer__menu-item"><a href="#" class="footer__menu_link">Features</a></li>
+                            <li class="mb-2 footer__menu-item"><a href="#" class="footer__menu_link">About</a></li>
+                            <li class="mb-2 footer__menu-item"><a href="#" class="footer__menu_link">Contacts</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-lg-2 mb-3">
+                        <h5>Guides</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2 footer__menu-item"><a href="#" class="footer__menu_link">Page</a></li>
+                            <li class="mb-2 footer__menu-item"><a href="#" class="footer__menu_link">Account</a></li>
+                            <li class="mb-2 footer__menu-item"><a href="#" class="footer__menu_link">Get started</a></li>
+                            <li class="mb-2 footer__menu-item"><a href="#" class="footer__menu_link">About</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-lg-2 mb-3">
+                        <h5>Projects</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2 footer__menu-item"><a href="#" class="footer__menu_link">Libraries</a></li>
+                            <li class="mb-2 footer__menu-item"><a href="#" class="footer__menu_link">Frameworks</a></li>
+                            <li class="mb-2 footer__menu-item"><a href="#" class="footer__menu_link">Code</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-lg-2 mb-3">
+                        <h5>Community</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2 footer__menu-item"><a href="#" class="footer__menu_link">Contacts</a></li>
+                            <li class="mb-2 footer__menu-item"><a href="#" class="footer__menu_link">Company</a></li>
+                            <li class="mb-2 footer__menu-item"><a href="#" class="footer__menu_link">Address</a></li>
+                            <li class="mb-2 footer__menu-item"><a href="#" class="footer__menu_link">More</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="js/source/script.js"></script>
+</body>
+
+</html>
